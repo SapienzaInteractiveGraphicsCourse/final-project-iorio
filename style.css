@@ -1,0 +1,113 @@
+body { 
+    margin: 0;
+    background-image: url('texture/futuristic_tunnel.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.menu {
+    font-family: Arial, sans-serif; 
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    color: #fff;
+}
+.menu h1 {
+    font-size: 40px;
+    text-shadow: 2px 2px 4px #000; 
+    
+}
+
+.menu p {
+    font-size: 12px;
+    margin-bottom: 15px; 
+    color: #fff;
+    text-shadow: 5px 5px 6px #000;
+
+}
+
+.menu button {
+    font-size: 12px; 
+    width: 120px;
+    padding: 12px; 
+    margin-right: 10px; 
+    display: inline-block; 
+    text-align: center; 
+    border: none;
+    background-color: #2944cc;
+    color: #fff; 
+
+}
+
+.menu button:hover {
+    background-color: #e02323;
+}
+
+.topleft {
+    text-align: left;
+    top: 0;
+    left: 0;
+    transform: inherit;
+}
+
+
+.hidden{
+    display: none;
+}
+
+
+
+#game-over {
+    display: none;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px;
+
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#game-over h2 {
+    font-size: 24px;
+}
+
+#game.over p {
+    font-size: 12px;
+    margin-bottom: 15px; 
+    color: #fff;
+    text-shadow: 5px 5px 6px #000;
+}
+
+#replay-button, #mainmenu-button {
+    background-color: #3498db; 
+    color: #fff; 
+    font-size: 12px;
+    width: 120px;
+    padding: 10px 20px;
+    margin: 10px 0; 
+    border: none;
+    display: inline-block; 
+    text-align: center;
+}
+
+#replay-button:hover {
+    background-color: #e02323;
+}
+#mainmenu-button:hover {
+    background-color: #e02323;
+}
+
+
+#hidden {
+    display: none;
+}
