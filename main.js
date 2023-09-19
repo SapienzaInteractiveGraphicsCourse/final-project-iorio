@@ -9,7 +9,7 @@ const gameOverScreen = document.getElementById('game-over');
 const restartButton = document.getElementById('restart-button');
 const menuButton = document.getElementById('menu-button');
 
-const audio = new Audio('audio/evasion.wav');
+const audio = new Audio('audio/action_scene.wav');
 audio.loop = true;
 audio.volume = 0.4;
 
